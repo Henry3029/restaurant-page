@@ -1,0 +1,63 @@
+
+  /* Basic page styling */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fefefe;
+    color: #333;
+  }
+
+  /* Header and nav */
+  header {
+    background-color: #0284c7;
+    padding: 10px 20px;
+    color: white;
+  }
+
+  nav {
+    display: flex;
+    gap: 10px;
+  }
+
+  nav button {
+    background-color: white;
+    color: #0284c7;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+  }
+
+  nav button:hover {
+    background-color: #0369a1;
+    color: white;
+  }
+
+  nav button:focus {
+    outline: 2px solid #0369a1;
+  }
+
+  /* Content area */
+  /* Home tab styles */
+.home-content {
+  background-color: #fff0f5;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Menu tab styles */
+.menu-content {
+  background-color: #f0fff0;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Contact tab styles */
+.contact-content {
+  background-color: #f0f8ff;
+  padding: 20px;
+  border-radius: 10px;
+}
